@@ -19,6 +19,7 @@ import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { DiretivaCustomizadaComponent } from './diretiva-customizada/diretiva-customizada.component';
 import { YellowBackgroundDirective } from './shared/yellow-background.directive';
+import { HighLightMouseDirective } from './shared/high-light-mouse.directive';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { YellowBackgroundDirective } from './shared/yellow-background.directive'
     NgStyleComponent,
     NgContentComponent,
     DiretivaCustomizadaComponent,
-    YellowBackgroundDirective
+    YellowBackgroundDirective,
+    HighLightMouseDirective
   ],
   imports: [
     BrowserModule,
