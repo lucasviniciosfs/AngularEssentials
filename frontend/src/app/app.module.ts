@@ -12,13 +12,15 @@ import { NavComponent } from './components/template/nav/nav.component';
 
 import { MatSidenavModule} from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { InputPropertyComponent } from './input-property/input-property.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    InputPropertyComponent
   ],
   imports: [
     BrowserModule,
