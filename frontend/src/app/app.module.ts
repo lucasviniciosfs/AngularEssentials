@@ -20,6 +20,7 @@ import { NgContentComponent } from './ng-content/ng-content.component';
 import { DiretivaCustomizadaComponent } from './diretiva-customizada/diretiva-customizada.component';
 import { YellowBackgroundDirective } from './shared/yellow-background.directive';
 import { HighLightMouseDirective } from './shared/high-light-mouse.directive';
+import { CamelCasePipe } from './shared/camel-case.pipe';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { HighLightMouseDirective } from './shared/high-light-mouse.directive';
     NgContentComponent,
     DiretivaCustomizadaComponent,
     YellowBackgroundDirective,
-    HighLightMouseDirective
+    HighLightMouseDirective,
+    CamelCasePipe
   ],
   imports: [
     BrowserModule,
