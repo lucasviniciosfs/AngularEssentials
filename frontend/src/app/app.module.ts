@@ -17,6 +17,8 @@ import { OutputPropertyComponent } from './output-property/output-property.compo
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
+import { DiretivaCustomizadaComponent } from './diretiva-customizada/diretiva-customizada.component';
+import { YellowBackgroundDirective } from './shared/yellow-background.directive';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { NgContentComponent } from './ng-content/ng-content.component';
     OutputPropertyComponent,
     NgClassComponent,
     NgStyleComponent,
-    NgContentComponent
+    NgContentComponent,
+    DiretivaCustomizadaComponent,
+    YellowBackgroundDirective
   ],
   imports: [
     BrowserModule,
