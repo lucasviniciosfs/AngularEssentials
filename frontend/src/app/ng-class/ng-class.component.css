@@ -1,0 +1,11 @@
+.teste{
+    font-size: medium;
+}
+
+.teste.pa{
+    background-color: blue !important;   
+}
+
+.teste.pe{
+    background-color: pink;
+}

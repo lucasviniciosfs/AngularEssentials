@@ -14,6 +14,7 @@ import { MatSidenavModule} from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { InputPropertyComponent } from './input-property/input-property.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
+import { NgClassComponent } from './ng-class/ng-class.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { OutputPropertyComponent } from './output-property/output-property.compo
     FooterComponent,
     NavComponent,
     InputPropertyComponent,
-    OutputPropertyComponent
+    OutputPropertyComponent,
+    NgClassComponent
   ],
   imports: [
     BrowserModule,
