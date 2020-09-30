@@ -15,6 +15,7 @@ import { MatListModule } from '@angular/material/list';
 import { InputPropertyComponent } from './input-property/input-property.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
+import { NgStyleComponent } from './ng-style/ng-style.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NgClassComponent } from './ng-class/ng-class.component';
     NavComponent,
     InputPropertyComponent,
     OutputPropertyComponent,
-    NgClassComponent
+    NgClassComponent,
+    NgStyleComponent
   ],
   imports: [
     BrowserModule,
