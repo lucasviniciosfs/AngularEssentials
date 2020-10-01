@@ -1,3 +1,4 @@
+import { AuthGuard } from './guards/auth-guard';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -46,7 +47,7 @@ import { CamelCasePipe } from './shared/camel-case.pipe';
     MatSidenavModule,
     MatListModule
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
